@@ -48,15 +48,15 @@ const bar =[
 	},
 	{
 		text: "DC Merchandize",
-		img: "../public/gay.img" 
+		img: "../../public/img/buy-comics-merchandise.png"
 	},
 	{
 		text: "Subscription",
-		img: ""
+		img: "../../public/img/buy-comics-subscriptions.png"
 	},
 	{
 		text: "Comic shop locator",
-		img: ""
+		img: "../../public/img/buy-comics-shop-locator.png"
 	}
 ];
 

@@ -15,8 +15,8 @@
 
 <style lang="scss" scoped>
 main{
-	height: 20vh;
-	min-width: 70px;
+	height: 10vh;
+	min-height: 70px;
 }
 
 </style>

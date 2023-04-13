@@ -10,8 +10,8 @@
 
 			<!-- nav bar link -->
 			<div class="w-75">
-				<ul class="d-flex justify-content-center m-0">
-					<li class="d-flex flex-column align-items-center gap-5 mx-2 my-li-link" v-for = "( header, index ) in navLink" :key="index">
+				<ul class="d-md-flex flex-wrap justify-content-center m-0 d-none" >
+					<li class="d-flex flex-column align-items-center gap-5 mx-2 my-li-link " v-for = "( header, index ) in navLink" :key="index">
 						<div class="d-flex align-items-start justify-content-center justify-self-start my-text-blue">
 							<a href=" header.url ">{{ header.text }}</a>
 						</div>

@@ -13,7 +13,7 @@
 				<ul class="d-md-flex flex-wrap justify-content-center m-0 d-none" >
 					<li class="d-flex flex-column align-items-center gap-5 mx-2 my-li-link " v-for = "( header, index ) in navLink" :key="index">
 						<div class="d-flex align-items-start justify-content-center justify-self-start my-text-blue">
-							<a href=" header.url ">{{ header.text }}</a>
+							<a class="my-text-blue fw-bold" href=" header.url ">{{ header.text }}</a>
 						</div>
 						<div class="d-flex justify-self-end my-bg-blue">
 
@@ -50,8 +50,20 @@ import { header } from '../data/data.js';
 	transition: 0.4s;
 }
 
+.my-text-blue{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4;
+}
+
 .my-li-link:hover .my-bg-blue{
 	opacity: 1;
+
+}
+
+.my-li-link:hover .my-text-blue{
+	color: rgb(53, 53, 253);
 }
 
 .my-li-link{

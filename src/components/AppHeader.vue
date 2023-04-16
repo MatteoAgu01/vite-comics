@@ -24,10 +24,18 @@
 			<!--// nav bar link -->
 		</div>
 		<!-- //MAIN NAV BAR -->
+
+		<div class="my-jumbo">
+			<div>
+				<h3 class="bg-primary text-white text-uppercase my-title ">
+					courrents series
+				</h3>
+			</div>
+		</div>
 	</header>
 </template>
 
-<script>
+<script lang="js">
 import { header } from '../data/data.js';
 	export default {
 		name: 'headerComponents',
@@ -68,5 +76,21 @@ import { header } from '../data/data.js';
 
 .my-li-link{
 	cursor: pointer;
+}
+
+.my-jumbo{
+	background-image: url(../../public/img/jumbotron.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+}
+.my-title{
+	position: relative;
+	bottom: -230px;
+	display: inline-block;
+	padding: 0.6%;
+	border-radius: 2px;
+	margin: 0 0 0 25px;
 }
 </style>

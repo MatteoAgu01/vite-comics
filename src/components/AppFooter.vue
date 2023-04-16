@@ -49,11 +49,11 @@
 					<h4 class="text-uppercase text-primary">
 						follow us
 					</h4>
-					<img class="px-3  d-none d-md-block" src="../../public/img/footer-facebook.png" alt="">
-					<img class="px-1 d-none d-md-block" src="../../public/img/footer-twitter.png" alt="">
-					<img class="px-1 d-none d-md-block" src="../../public/img/footer-youtube.png" alt="">
-					<img class="px-1 d-none d-md-block" src="../../public/img/footer-pinterest.png" alt="">
-					<img class="px-1 d-none d-md-blomd" src="../../public/img/footer-periscope.png" alt="">
+					<img class="px-3  d-none d-md-block" src="../../public/img/footer-facebook.png" alt="facebook">
+					<img class="px-1 d-none d-md-block" src="../../public/img/footer-twitter.png" alt="twitter">
+					<img class="px-1 d-none d-md-block" src="../../public/img/footer-youtube.png" alt="youtube">
+					<img class="px-1 d-none d-md-block" src="../../public/img/footer-pinterest.png" alt="pintrest">
+					<img class="px-1 d-none d-md-blomd" src="../../public/img/footer-periscope.png" alt="periscope">
 				</div>
 			</div>
 		</div>
@@ -102,14 +102,15 @@ ul{
 
 .my-body-footer{
 	background-image: url(../../public/img/footer-bg.jpg);
-	height: 50vh;
+	background-position: center;
+	background-size: cover;
 	position: relative;
 }
 
 .social-footer{
 	height: 100px;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	z-index: 2;
 }
@@ -139,5 +140,15 @@ ul{
 		scale: 30%;
 		bottom: 80px;
 	}
+}
+@media screen and (max-width:768px){
+	.my-relative{
+		display: none;
+	}
+	.my-body-footer{
+		font-size: 0.4rem;
+		margin-bottom: 99px;
+		padding-bottom: 10px;
+}
 }
 </style>
